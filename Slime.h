@@ -3,5 +3,5 @@
 
 class Slime : public Monster
 {
-
+	int Weapon;
 };

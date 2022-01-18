@@ -1,4 +1,6 @@
 #pragma once
+#include <iostream>
+using namespace std;
 
 // private - 캡슐화
 
@@ -10,6 +12,17 @@ private:
 	int Gold;
 
 public:
+	Player() // 기본 생성자 (constructor)
+	{
+		cout << "플레이어 생성" << endl;
+	}
+
+
+	~Player() // 소멸자, 파괴자 (destructor)
+	{
+		cout << "플레이어 사라짐" << endl;
+	}
+
 	// 접근자 (accessor)
 	void SetHP(int NewHP)
 	{
