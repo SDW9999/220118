@@ -1,13 +1,7 @@
 #pragma once
+#include "Monster.h"
 
-class WildBoar
+class WildBoar : public Monster
 {
-public:
-	int HP;
-	int MP;
 
-public:
-	void Move();
-	void Attack();
-	void Run();
 };

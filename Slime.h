@@ -1,13 +1,7 @@
 #pragma once
+#include "Monster.h"
 
-class Slime
+class Slime : public Monster
 {
-public:
-	int HP;
-	int MP;
 
-public:
-	void Move();
-	void Attack();
-	void Run();
 };
